@@ -198,7 +198,7 @@ notificationLayout.Padding = UDim.new(0, 6)
 notificationLayout.HorizontalAlignment = Enum.HorizontalAlignment.Right
 notificationLayout.VerticalAlignment = Enum.VerticalAlignment.Bottom
 notificationLayout.Parent = notificationContainer
-Notify("Welcome to C00lClan!", "Have fun!", 3)
+Notify("Welcome to c00lhackGui!", "Have fun!", 3)
 -- Main frame
 local mainFrame = Instance.new("Frame")
 mainFrame.Name            = generate_string(math_random(1, 10))
@@ -412,7 +412,7 @@ FunctionManager.OnFunctionAdded.Event:Connect(updateGrid)
 updateGrid()
 
 FunctionManager:register("Decal Spam", function()
-	local decalID = 8408806737
+	local decalID = 138967652435762
 	local function exPro(root)
 		for _, v in pairs(root:GetChildren()) do
 			if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id="..decalID then
