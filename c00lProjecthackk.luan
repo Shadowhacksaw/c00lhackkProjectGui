@@ -453,7 +453,7 @@ FunctionManager:register("Decal Spam", function()
 	local s = Instance.new("Sky")
 	s.Name = "Sky"
 	s.Parent = game.Lighting
-	local skyboxID = 8408806737
+	local skyboxID = 132713565334047
 	s.SkyboxBk = "http://www.roblox.com/asset/?id="..skyboxID
 	s.SkyboxDn = "http://www.roblox.com/asset/?id="..skyboxID
 	s.SkyboxFt = "http://www.roblox.com/asset/?id="..skyboxID
