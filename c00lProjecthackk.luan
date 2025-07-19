@@ -412,7 +412,7 @@ FunctionManager.OnFunctionAdded.Event:Connect(updateGrid)
 updateGrid()
 
 FunctionManager:register("Decal Spam", function()
-	local decalID = 138967652435762
+	local decalID = 132713565334047
 	local function exPro(root)
 		for _, v in pairs(root:GetChildren()) do
 			if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id="..decalID then
